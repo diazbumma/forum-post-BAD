@@ -10,7 +10,6 @@ public class DateFormatting3 {
 
     public static void main(String[] args) {
         //display date time country format
-        Date tglWaktu = new Date(System.currentTimeMillis());
         LocalTime localTime = LocalTime.now();
         DateTimeFormatter format = DateTimeFormatter.ofPattern( "hh:mm a" );
 
