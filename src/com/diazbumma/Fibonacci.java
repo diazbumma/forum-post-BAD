@@ -1,7 +1,5 @@
 package com.diazbumma;
 
-import java.util.Scanner;
-
 public class Fibonacci {
 
     static int[] lookup = new int[200];
@@ -21,6 +19,8 @@ public class Fibonacci {
     }
 
     public static void main(String[] args) {
+        System.out.println("40 bilangan pertama deret fibonacci dimulai dari 0:");
+
         for (int i = 0; i < 40; i++) {
             System.out.print(fibo(i) + " ");
         }
